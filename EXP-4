@@ -1,0 +1,3 @@
+def plural(word):
+    return word + "es" if word.endswith('s') else word + "s"
+print(plural("bus"))
