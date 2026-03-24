@@ -1,0 +1,2 @@
+text="How are you?"
+print("Question" if "?" in text else "Statement")
