@@ -1,0 +1,5 @@
+tag = "NN"
+word = "running"
+if word.endswith("ing"):
+    tag = "VBG"
+print(tag)
