@@ -1,0 +1,2 @@
+sub="He"; verb="runs"
+print("Correct" if sub=="He" and verb.endswith("s") else "Wrong")
