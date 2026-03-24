@@ -1,0 +1,3 @@
+import re
+word = "running"
+print("VBG" if re.match(r'.*ing$', word) else "NN")
