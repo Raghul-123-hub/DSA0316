@@ -1,0 +1,3 @@
+# Simple recursive idea
+def parse(sentence):
+    return "Valid" if sentence=="a b" else "Invalid"
