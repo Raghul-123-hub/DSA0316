@@ -1,0 +1,3 @@
+from nltk import Tree
+t = Tree('S', ['NP','VP'])
+t.pretty_print()
