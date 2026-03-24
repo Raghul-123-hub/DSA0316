@@ -1,0 +1,3 @@
+# Simple probability mapping
+tags = {"run":"VB", "dog":"NN"}
+print(tags.get("run"))
