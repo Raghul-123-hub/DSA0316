@@ -1,0 +1,3 @@
+from nltk.stem import WordNetLemmatizer
+l = WordNetLemmatizer()
+print(l.lemmatize("running", pos='v'))
