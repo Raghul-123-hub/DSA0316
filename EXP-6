@@ -1,0 +1,3 @@
+from nltk import bigrams
+text = "I love NLP"
+print(list(bigrams(text.split())))
