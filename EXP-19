@@ -1,0 +1,2 @@
+from nltk.wsd import lesk
+print(lesk("I went to bank".split(), "bank"))
